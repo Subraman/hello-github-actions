@@ -1,0 +1,13 @@
+name: "first-action"
+description: "This is my first action"
+inputs:
+  MY_NAME:
+    description: "input for action"
+    required: true
+    default: "github"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "mic"
+  color: "purple"
